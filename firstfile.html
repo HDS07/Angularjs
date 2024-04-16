@@ -1,12 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+
 </head>
-<body ng-app="">
-    {{2+3}}
+
+
+<body>
+
+   <div>                 <!-- anugularjs support on this div but not in other if i do np-app in this div-->
+        {{2+3}}
+    </div> 
+
+    <div>                                
+        {{"helllo world"}}
+    </div> 
+
+    <p>this is an paragraph</p>
+
 </body>
 </html> 
